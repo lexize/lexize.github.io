@@ -1,0 +1,18 @@
+.header_container {
+    height: 40px;
+}
+
+.header_container a{
+    display: inline-flex;
+    position: relative;
+    text-decoration-line: none;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    transition: 0.15s ease-in-out;
+}
+
+.header_container a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

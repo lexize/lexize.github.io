@@ -40,6 +40,16 @@ ln {
     padding: 5px;
     border-radius: 5px;
 }
+.in_dev::after {
+    content: "In development";
+    background-color: rgb(120, 159, 192);
+    display: inline-block;
+    width: fit-content;
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
 .dev_paused::after {
     content: "Development is paused";
     background-color: gray;
